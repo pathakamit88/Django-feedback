@@ -19,4 +19,4 @@ class FeedBack(models.Model):
         ordering = ('-post_date',)
 
     def __unicode__(self):
-        return self.name + ' - ' + self.type
+        return self.feedback_name + ' - ' + self.feedback_type
