@@ -6,53 +6,29 @@
     height: 87px;
     width: 26px;
 }
-
-.name{
-    margin-left: 48px;
+.textbox{
+    float: right;
+    margin-right: 90px;
+    width: 310px;
     border: solid 1px;
 }
-.name_error{
-    margin-left: 48px;
-    border: solid 1px #ff0000;
-}
-.email{
-    margin-left: 49px;
-    border: solid 1px;
-}
-.email_error{
-    margin-left: 49px;
+.textbox_error{
+    float: right;
+    margin-right: 90px;
+    width: 310px;
     border: solid 1px #ff0000;
 }
 .dropdown{
-    margin-left: 55px;
-    font:bold 12px Arial, Helvetica, sans-serif;
-    border: solid 1px;
-}
-.textarea{
-    float: right;
-    margin-right: 96px;
-    border: solid 1px;
-}
-.textarea_error{
-    float: right;
-    margin-right: 96px;
-    border: solid 1px #ff0000;
+    margin-left: 44px;
+    font:normal 13px Arial;
 }
 .button{
     margin-left: 168px;
     margin-top: 20px;
     width: 105px;
-    border: solid 1px;
-}
-.contactno{
-    margin-left: 20px;
-    border: solid 1px;
-}
-.contactno_error{
-    margin-left: 20px;
-    border: solid 1px #ff0000;
+    font: normal 15px oblique;
 }
 .errorlist{
     color: #ff0000;
-    margin-left: 100px;
+    margin-left: 78px;
 }

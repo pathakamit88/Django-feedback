@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var text = '<a name="anc_feedback" id ="id_anc_feedback" class="cls_feedback thickbox" title="Submit Your Feedback" ' +
-        'href="/feedback/feedback_form/?height=400&width=480"></a>'
+        'href="/feedback/feedback_form/?height=405&width=480"></a>'
     $('body').prepend(text);
 });
 
