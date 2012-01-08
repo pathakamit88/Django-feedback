@@ -1,4 +1,9 @@
 This is a django project.
+ABOUT:
+	This app will put a feedback image at right side of you webpage.
+	When somebody clicks on it a thickbox containing feedback form will open.
+	When user submits feedback, he/she will get a mail.
+
 You need to do some initial configuration to start working.
 
 Reqirement:
@@ -18,6 +23,7 @@ Configuration:
 
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/feedback.css" />
     	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/thickbox.css" />
+4. add DEFAULT_FROM_EMAIL='some@some.com' in your settings
 4. run syncdb command
 
 If you are already using jquery and thickbox no need to include jquery-1.5.1.min.js, thickbox.js and thickbox.css
