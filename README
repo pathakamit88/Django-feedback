@@ -1,1 +1,26 @@
 This is a django project.
+You need to do some initial configuration to start working.
+
+Reqirement:
+1. jquery.js
+2. thickbox.js
+3. thickbox.css
+
+All of these are included in app.
+
+Configuration:
+1. put 'feedback' in your INSTALLED_APPS settings
+2. add url(r'^feedback/', include('feedback.urls')), in your urls.py of project
+3. make sure to call below js and css files accordingly
+	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.5.1.min.js"></script>
+    	<script type="text/javascript" src="{{ STATIC_URL }}js/feedback.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/thickbox.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/feedback.css" />
+    	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/thickbox.css" />
+4. run syncdb command
+
+If you are already using jquery and thickbox no need to include jquery-1.5.1.min.js, thickbox.js and thickbox.css
+feedback.js and feedback.css are uncompressed, you can modify as per your need.
+
+Thanks,
